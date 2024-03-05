@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+
+@font-face {
+  font-family: "Brandon Grotesque";
+  /*Can be any text*/
+  src: local("AirbnbCerealLight"), url("./assets/fonts/Brandon_med.otf");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Brandon Grotesque", "Open Sans", sans-serif;
+}
+
+

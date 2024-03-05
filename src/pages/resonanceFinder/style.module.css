@@ -1,0 +1,31 @@
+.statement, .answer, .value, .direction {
+    background-color: transparent;
+    width: 100%;
+    border: none;
+    outline: none;
+}
+
+.statement:focus, .answer:focus, .value:focus {
+    border: none;
+    outline: none;
+}
+
+.direction {    
+    height: 60%;
+    resize: none;
+    padding: 0 3vw;
+}
+
+.img {
+    background-color: red;
+    height: 15vh;
+    width: 10vw;
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.imgTag {
+    height: 100%;
+    border-radius: 1vw;
+}
