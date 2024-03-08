@@ -141,6 +141,11 @@ const AddVibeGuide = () => {
 
   const submitHandler = async (e) => {
     e.preventDefault();
+    setLoading(true);
+    setTimeout(() => {
+      setLoading(false);
+      navigate("/VibeGuides");
+    }, 1500);
   };
 
   useEffect(() => {

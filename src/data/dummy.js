@@ -608,11 +608,11 @@ export const links = [
         linkName: "ManageUser",
         icon: <img src={icon13} />,
       },
-      // {
-      //   name: "Notification",
-      //   linkName: "Notification",
-      //   icon: <img src={icon14} />,
-      // },
+      {
+        name: "Notification",
+        linkName: "Notification",
+        icon: <img src={icon14} />,
+      },
       {
         name: "Resonance Finder",
         linkName: "ResonanceFinder",
